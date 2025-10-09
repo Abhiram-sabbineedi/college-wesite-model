@@ -1,0 +1,626 @@
+body{
+background-color:#fff;
+width:100%;
+height:100%;
+padding:0;
+margin:0;	
+	
+}
+/* top bar css starts */
+.topbar{
+	background-color:#ffca28;
+	width:100%;
+	
+	
+}
+.social-icon ul{
+	list-style:none;
+	margin:0;
+	padding:20px;
+	
+}
+.social-icon ul li{
+    display:inline;
+	padding-right:10px;
+	font-size:20px;
+}
+.social-icon ul li i{
+	color:blue;
+}
+.contact-info ul{
+	list-style:none;
+	margin:0;
+	padding:20px;
+	float:right;
+}
+.contact-info ul li{
+    display:inline;
+}
+.contact-info ul li a{
+    color:red;
+	text-decoration:none;
+	padding-right:10px;
+
+}
+.contact-info ul li i{
+	padding-right:10px;
+}
+.topbar-pannel{
+	display:inline-flex;
+	width:100%;
+	
+}
+.social-icon, .contact-info{
+	width:50%;
+}
+/* top bar css ends */
+
+/* Header css starts */
+.header-bar{
+	width:100%;
+	display:inline-flex;
+	
+}
+.client-logo .logo-img{
+	width:100%;
+	max-width:200px;
+	height:auto;
+
+}
+.navlist ul{
+	list-style:none;
+	padding-top:30px;
+	margin:0;
+	float:right;
+	
+}
+.navlist ul li{
+	display:inline;
+	padding-right:10px;
+}
+.navlist ul li a{
+	text-decoration:none;
+	color:#FF0033;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.client-logo{
+	width:50%;
+	padding:0px;
+}
+ .navbar{
+	width:50%;
+	padding:15px;
+ }
+.navlist ul li a:hover{
+	color:#16A085;
+
+}
+/* Header css ends */
+/* hero banner css starts*/
+.hero-banner{
+	background-image:url("../images/banner.png");
+	width:100%;
+	height:450px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.hero-banner:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:450px;
+	background-color:#000;
+	opacity:0.6;
+}
+.hero-content{
+	color:#fff;
+	position:absolute;
+	text-align:center;
+	top:30%;
+	left:16%;
+	
+}
+/*hero banner css ends*/
+/* ABOUT US SECTION CSS STARTS*/
+.about-us{
+	width:100%;
+	
+	
+}
+.about-content{
+	padding:60px 20px;
+	display:inline-flex;
+}
+.about-img img{
+	width:100%;
+	max-width:600px;
+	
+}
+.about-discription {
+	font-size:25px;
+}
+.about-discription h2{
+	color:#D4AC0D;
+	font-weight:bold;
+	text-transform:uppercase;
+	
+}
+.about-discription a{
+	font-size:25px;
+   color:white;
+   background-color:orange;
+   padding:10px;
+   border-radius:10px;
+   text-decoration:none;
+ 
+}
+.about-discription a:hover{
+	background-color:skyblue;
+}
+.about-img, .about-discription{
+	width:50%;
+	
+}
+/* ABOUT US SECTION CSS ENDS*/
+/* courses section css starts */
+.courses{
+	background-color:#ccff90;
+	width:100%;
+	padding-bottom:40px;
+}
+.courses h2{
+	text-align:center;
+	text-transform:uppercase;
+	color:#D4AC0D;
+	padding-top:20px;
+	font-size:40px;
+}
+.courses-details{
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	width:100%;
+	color:white;
+	
+	
+}
+.courses-card{
+	padding:10px;
+	background-color:#1b2b5f;
+	margin:0px 20px;
+	min-height:550px;
+	border-radius:10px;
+}
+.courses-card img{
+	width:100%;
+	height:100%;
+	max-height: 198px;
+	max-width:350px;
+	border-radius:10px;
+}
+.courses-card h3{
+	font-size:28px;
+	text-align:left;
+	color:#D4AC0D;
+}
+.courses-card p{
+	font-size:20px;
+	text-align:left;
+	color:white;
+}
+.courses-card a{
+	font-size:25px;
+   color:white;
+   background-color:orange;
+   padding:10px;
+   border-radius:10px;
+   text-decoration:none;
+}
+.courses-card a:hover{
+	background-color:skyblue;
+}
+
+/* courses section css ends */
+/* contact section css STARTS */
+
+.contact-us {
+	width:100%;
+	background-color:white;
+}
+.contact-details{
+	display:inline-flex;
+	width:100%;
+	padding:60px 0px;
+}
+.contact-form{
+	width:50%;
+	padding-left:20px;
+}
+form{
+	background-color:#FFFF99;
+	padding:30px;
+}
+form .form-group{
+	display:grid;
+}
+form label{
+	padding-bottom:6px;
+}
+
+form .form-control{
+
+	height:30px;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+form .form-select{
+	height:30px;
+	padding-left:10px;
+	margin-bottom:10px;
+}
+
+form .form-textarea{
+	padding-left:10px;
+	margin-bottom:10px;
+}
+form button{
+	font-size:15px;
+   color:white;
+   background-color:orange;
+   padding:5px;
+   border-radius:10px;
+   margin:10px 0px;
+   border:none;
+}
+form button:hover{
+	background-color:skyblue;
+}
+
+.contact-one, .contact-two{
+	padding:30px;
+	box-shadow:0 0 10px #d2d2d2;
+	margin:0 20px 20px 20px;
+	
+}
+.contact-one h2,.contact-two h2{
+	
+	font-size:20px;
+	color:orange;
+	text-transform:uppercase;
+}
+.contact-one ul,.contact-two ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.contact-one ul li,.contact-two ul li{
+	margin-bottom:10px;
+}
+.contact-one ul li span i,.contact-two ul li span i{
+	color:#f79421;
+	padding-right:10px;
+}
+/*contact section css ends*/
+/* maps */
+.map h1{
+	text-transform:uppercase;
+	color:red;
+	text-align:center;
+}
+/*maps*/
+/* footer section css starts */
+.footer-section{
+	
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+	background-color:#66ccff;
+	margin-top:30px;
+	padding: 0 40px;
+}
+.footer-about{
+	padding:0 20px;
+}
+.footer-about img{
+	width:100%;
+	max-width:450px;
+}
+.footer-about  p{
+	text-align:fill;
+	font-size:18px;
+	color:white;
+}
+.useful-links, .quick-links{
+	padding:0 20px;
+	
+}
+.useful-links h4, .quick-links h4{
+	font-size:25px;
+	color:white;
+	text-transform:uppercase;
+	
+}
+.useful-links ul, .quick-links ul{
+	list-style:none;
+	padding:0;
+}
+.useful-links ul li, .quick-links ul li{
+	padding-bottom:15px;
+    
+}
+.useful-links ul li a, .quick-links ul li a{
+	text-decoration:none;
+	font-size:18px;
+}
+.newsletter{
+	padding:0 20px;
+}
+.newsletter h4{
+	font-size:25px;
+	color:white;
+	text-transform:uppercase;
+}
+.newsletter p{
+	text-align:fill;
+	font-size:18px;
+	color:white;
+}
+.footer-form{
+	display:flex;
+    max-width:265px;
+	background-color:white;
+	padding:0;
+}
+.footer-form .place{
+	padding:10px;
+	border:none;
+}
+/* footer section css ends */
+
+/* vission and mission */
+
+.vm-banner{
+	background-image:url("../images/banner.png");
+	width:100%;
+	height:650px;
+	background-position:center center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+}
+.vm-banner:before{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:650px;
+	background-color:#000;
+	opacity:0.6;
+}
+
+.vm-content{
+	color:#fff;
+	position:absolute;
+	text-align:center;
+	top:30%;
+}
+
+
+
+@media screen and (max-width:767px){
+	
+/* top bar css for mobile starts */
+.topbar-pannel {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.social-icon, .contact-info {
+    width: 100%;
+}
+.contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    float: none;
+}
+.contact-info ul li {
+    display: block;
+}
+
+/* top bar css for mobile ends */
+/* header bar css for mobile starts */
+.header-bar {
+    width: 100%;
+    display: grid;
+	grid-template-columns:100%;
+}
+.client-logo {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+.navbar {
+	width:100%;
+    padding: 10px 0px;
+}
+.navlist ul {
+    list-style: none;
+    padding-top: 0px;
+    margin: 0;
+    float: none;
+    text-align: center;
+    padding-left: 0px;
+}
+.navlist ul li {
+    display: inline;
+    padding-right: 5px;
+}
+
+/* header bar css for mobilr ends */
+/* banner css for mobile starts */
+.hero-content {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+	left:0px;
+}
+
+/* banner css for mobile ends */
+/* ABOUT US CSS for mobiles STARTS*/
+.about-content {
+    padding: 60px 20px;
+    display: grid;
+}
+.about-img, .about-discription {
+    width: 100%;
+    text-align: center;
+}
+
+/* ABOUT US CSS for mobiles endS*/
+/* course us CSS for mobiles starts*/
+.courses-details {
+    display: grid;
+    width: 100%;
+    color: white;
+	grid-template-columns:100%;
+}
+.courses-card {
+    padding: 10px;
+    background-color: #FF0033;
+    margin: 0px 20px 30px 20px;
+    min-height: 550px;
+    border-radius: 10px;
+}
+
+/* course us CSS for mobiles endS*/
+/* contact css for mobile starts */
+.contact-details {
+    display: grid;
+    width: 100%;
+	grid-template-columns:100%;
+    padding: 60px 0px;
+}
+.contact-form {
+  width: 100%;
+  max-width:350px;
+    padding: 10px;
+}
+.contact-form h2 {
+    text-align: center;
+}
+
+/* contact css for mobile ends */
+/* footer css for mobile starts */
+.footer-section {
+    display: grid;
+	grid-template-columns:100%;
+    /* grid-template-columns: auto auto auto auto; */
+    background-color: #66ccff;
+    margin-top: 30px;
+    padding: 0 40px 40px;
+}
+.footer-form {
+    display: inline-flex;
+    max-width: 280px;
+    background-color: white;
+    padding: 0;
+}
+
+/* footer css for mobile ends */
+
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+/* top bar css for tabs starts */
+.social-icon, .contact-info {
+    width: 100%;
+}
+.contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    float:right;
+}
+.contact-info ul li {
+    display: block;
+}
+
+/*top bar css for tabs ends */
+/* header css for tabs starts */
+.navbar {
+    width: 100%;
+    padding: 15px;
+}
+
+/* header css for tabs ends */
+/* banner css for tab starts */
+.about-img img {
+    width: 100%;
+    max-width:none;
+}
+.hero-content {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 0%;
+}
+
+/* banner css for tabs ends */
+/* about us css for tabs starts */
+.about-content {
+    padding: 60px 20px;
+    display: block;
+}
+.about-img img ,.about-discription{
+    width: 100%;
+    
+}
+.about-img{
+	width:100%
+}
+.about-discription {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* about us css for tabs ends */
+/* courses us css for tabs starts */
+.courses-details {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    color: white;
+}
+.courses-card {
+    padding: 10px;
+    background-color: #FF0033;
+    margin: 0 20px 30px 20px;
+    min-height: 550px;
+    border-radius: 10px;
+}
+/* courses us for css for tabs ends */
+/* footer css for tabs starts */
+.footer-section {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #66ccff;
+    margin-top: 30px;
+    padding: 0 40px 40px;
+}
+.footer-about img {
+    width:none;
+    max-width: 450px;
+}
+
+/* footer css for tabs ends */
+	
+}
+
+
